@@ -1,5 +1,3 @@
-" Aaron Fineman <fineman.aaron@gmail.com>
-
 " Use Vim settings, rather than Vi settings
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -77,7 +75,7 @@ filetype on
 filetype plugin on
 
 " Theme
-colorscheme ir_black
+colorscheme molokai
 "colorscheme neverness
 
 " Other stuff

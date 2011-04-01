@@ -75,8 +75,8 @@ filetype on
 filetype plugin on
 
 " Theme
+set t_Co=256
 colorscheme molokai
-"colorscheme neverness
 
 " Other stuff
 set termencoding=utf-8

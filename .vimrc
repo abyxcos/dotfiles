@@ -75,7 +75,6 @@ filetype on
 filetype plugin on
 
 " Theme
-set t_Co=256
 colorscheme molokai
 
 " Other stuff

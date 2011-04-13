@@ -9,7 +9,7 @@ set spell
 " set autoindent
 " filetype indent on
 " Makes the / and ? commands incremental
-set noincsearch
+set incsearch
 " Ignore case differences in regular expressions
 set ignorecase
 " If there are caps, go case-sensitive

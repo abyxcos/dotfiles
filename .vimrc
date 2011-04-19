@@ -75,7 +75,8 @@ filetype on
 filetype plugin on
 
 " Theme
-colorscheme molokai
+"colorscheme molokai
+colorscheme cloudhead
 
 " Other stuff
 set termencoding=utf-8

@@ -1,0 +1,60 @@
+Xcursor.theme: Neutral++
+
+! URxvt
+URxvt*scrollstyle:		plain
+URxvt*scrollBar:			false
+URxvt.saveLines:			8192
+URxvt.loginShell:			true
+
+URxvt.perl-ext-common:	default,clipboard,url-select
+! URxvt clipboard
+URxvt.keysym.M-c:			perl:clipboard:copy
+URxvt.keysym.M-V:			perl:clipboard:paste
+URxvt.keysym.M-C-v:		perl:clipboard:paste_escaped
+URxvt.copyCommand:		xsel -ib
+URxvt.pasteCommand:		xsel -ob
+! URxvt clickable links
+URxvt.keysym.M-u:			perl:url-select:select_next
+URxvt.urlLauncher:		/usr/bin/xxxterm -n
+!URxvt.underlineURLs:		true
+URxvt.urlButton:			1
+
+! Font
+Xft.dpi:				96
+Xft.antialias:		true
+Xft.rgba:			rgb
+Xft.hinting:		true
+Xft.hintingstyle:	hintslight
+Xfg.lcdfilter:		lcddefault
+
+URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10
+
+! terminal colors
+! tangoesque
+*background:	#111111
+*foreground:	#babad6
+! Black
+*color0:			#000000
+*color8:			#555753
+! Red
+*color1:			#ff6565
+*color9:			#ff8d8d
+! Green
+*color2:			#93d44f
+*color10:		#c8e7a8
+! Yellow
+*color3:			#eab93d
+*color11:		#ffc123
+! Blue
+*color4:			#204a87
+*color12:		#3465a4
+! Magenta
+*color5:			#ce5c00
+*color13:		#f57900
+! Cyan
+*color6:			#89b6e2
+*color14:		#46a4ff
+! White
+*color7:			#cccccc
+*color15:		#ffffff
+

@@ -15,7 +15,7 @@ alias screen='screen -U'
 
 # Colors
 export CLICOLOR="true"
-#alias ls='ls --color'
+alias ls='ls --color'
 
 # Pretty Prompt
 setopt prompt_subst

@@ -7,6 +7,9 @@ setopt hist_ignore_all_dups
 
 setopt autocd
 
+# Helper Programs
+export EDITOR=vim
+
 # Key Bindings
 bindkey -e
 #stty erase 

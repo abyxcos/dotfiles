@@ -1,6 +1,7 @@
 Xcursor.theme: Neutral++
 
 ! URxvt
+URxvt*termName:			rxvt-256color
 URxvt*scrollstyle:		plain
 URxvt*scrollBar:			false
 URxvt.saveLines:			8192

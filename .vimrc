@@ -60,7 +60,7 @@ set shm=asAI			" Less verbose status/startup messages
 set nostartofline		" Remember the cursor position
 
 " Spellcheck on
-set spell
+" set spell
 " Note matching '{' and '(' for '}' and ')' characters
 set noshowmatch
 

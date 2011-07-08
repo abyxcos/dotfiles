@@ -1,14 +1,16 @@
 
-" -------
-" Plugins
-" -------
-" Load Pathogen first so other plugins will take effect
+" --------------
+" Initialization
+" --------------
+set nocompatible		" Use Vim settings, rather than Vi settings
+" Call Pathogen to load plugins
+filetype off
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " -----------
 " Colorscheme
 " -----------
-set nocompatible		" Use Vim settings, rather than Vi settings
 colorscheme cloudhead
 set background=dark
 set number
@@ -55,7 +57,7 @@ set ruler
 set wrap					" Wrap long lines to fit terminal width
 " set nobackup			" Disable backup
 set swapfile
-set updatecount=200
+set updatecount=200	" Write swapfile after X characters
 set directory=$HOME/.vim/tmp
 set autochdir			" cd into the file's directory
 set ttyfast				" Tell vim we're using a fast terminal for redraws
@@ -85,4 +87,8 @@ vnoremap <Down> gj
 vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
+
+" -------
+" Plugins
+" -------
 

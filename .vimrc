@@ -6,8 +6,13 @@ colorscheme cloudhead
 set background=dark
 set number
 
+" ------
+" Indent
+" ------
 filetype plugin on
 syntax on
+set autoindent
+set smartindent
 
 set backspace=indent,eol,start
 set tabstop=3
@@ -16,12 +21,6 @@ set encoding=utf-8	" Unicode support
 set termencoding=utf-8
 set noerrorbells		" Don't make noise
 set novisualbell		" Don't flash screen
-
-" ------
-" Indent
-" ------
-set autoindent
-set smartindent
 
 " -----------
 " Status line
@@ -58,9 +57,7 @@ set title				" Set window title with the vim file
 set ofu=syntaxcomplete#Complete	" Omni-completion with a popup
 set shm=asAI			" Less verbose status/startup messages
 set nostartofline		" Remember the cursor position
-
-" Spellcheck on
-" set spell
+" set spell				" Spellcheck on
 " Note matching '{' and '(' for '}' and ')' characters
 set noshowmatch
 
@@ -81,10 +78,4 @@ vnoremap <Down> gj
 vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
-
-" ---------
-" vim-latex
-" ---------
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
 

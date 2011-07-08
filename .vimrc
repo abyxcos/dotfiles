@@ -1,3 +1,10 @@
+
+" -------
+" Plugins
+" -------
+" Load Pathogen first so other plugins will take effect
+call pathogen#runtime_append_all_bundles()
+
 " -----------
 " Colorscheme
 " -----------

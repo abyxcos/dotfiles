@@ -76,6 +76,8 @@ set iskeyword+=_,$,@,%,#	" none of these are word dividers
 " --------------
 " Remapping keys
 " --------------
+set timeoutlen=3000	" Macros last longer
+set ttimeoutlen=50	" Keys respond faster
 " Move through displayed lines in wrap mode
 nnoremap j gj
 nnoremap k gk

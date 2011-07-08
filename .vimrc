@@ -23,6 +23,8 @@ syntax on
 set autoindent
 set smartindent
 
+set foldmethod=syntax
+
 set backspace=indent,eol,start
 set tabstop=3
 set shiftwidth=3

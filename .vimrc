@@ -39,8 +39,6 @@ set showmode			" Show mode in status line
 set cmdheight=1		" Set height of command
 set laststatus=2		" Always show the status line
 set statusline=\ \%f%m%r%h%w\ ::\ %y\ [%{&ff}]\%=\ [%p%%:\ %l/%L]\ 
-set wildmenu
-set wildmode=longest:full,full
 
 " ------
 " Search
@@ -62,7 +60,6 @@ set swapfile
 set updatecount=200	" Write swapfile after X characters
 set directory=$HOME/.vim/tmp
 set autochdir			" cd into the file's directory
-set autoread			" Reread file on changes (non-stupid)
 set ttyfast				" Tell vim we're using a fast terminal for redraws
 set history=1000
 set title				" Set window title with the vim file

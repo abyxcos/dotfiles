@@ -59,3 +59,9 @@ URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10
 *color7:			#cccccc
 *color15:		#ffffff
 
+! Gnuplot pretends it's a terminal, so reset it to sane (printable) colors
+gnuplot*background: white
+gnuplot*textColor: black
+gnuplot*borderColor: black
+gnuplot*axisColor: black
+

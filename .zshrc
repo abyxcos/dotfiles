@@ -13,9 +13,11 @@ bindkey -e
 bindkey "[3~" delete-char
 alias screen='screen -U'
 
+# Useful Aliases
+alias ls='ls -F --si --color'
+
 # Colors
 export CLICOLOR="true"
-alias ls='ls --color'
 
 # Pretty Prompt
 setopt prompt_subst

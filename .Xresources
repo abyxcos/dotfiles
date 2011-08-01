@@ -8,7 +8,6 @@ Xcursor.theme: Neutral++
 URxvt.scrollstyle:		plain
 URxvt.scrollBar:			false
 URxvt.saveLines:			8192
-URxvt.externalBorder:	0
 URxvt.letterSpace:		-1
 URxvt.loginShell:			true
 
@@ -20,7 +19,7 @@ Xft.hinting:		true
 Xft.hintingstyle:	hintslight
 Xfg.lcdfilter:		lcddefault
 
-URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10:dpi=96
+URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10
 
 ! Extensions
 URxvt.perl-ext-common:	default,clipboard,url-select

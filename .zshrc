@@ -24,8 +24,8 @@ setopt prompt_subst
 autoload -U colors && colors
 
 PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}%~%{$reset_color%}
-%{$fg[blue]%}$%{$reset_color%} '
+%{$fg_bold[blue]%}%n@%{$fg_bold[grey]%}%m%{$fg_bold[blue]%}:%{$fg_bold[green]%}%~%{$reset_color%}
+%{$fg_bold[blue]%}$%{$reset_color%} '
 
 # Completion
 autoload -Uz compinit

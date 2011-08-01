@@ -1,12 +1,28 @@
 Xcursor.theme: Neutral++
 
-! URxvt
-URxvt*termName:			rxvt-256color
-URxvt*scrollstyle:		plain
-URxvt*scrollBar:			false
+! -----
+! URxvt 
+! -----
+! UI settings
+!URxvt.termName:			urxvt
+URxvt.scrollstyle:		plain
+URxvt.scrollBar:			false
 URxvt.saveLines:			8192
+URxvt.externalBorder:	0
+URxvt.letterSpace:		-1
 URxvt.loginShell:			true
 
+! Font
+Xft.dpi:				96
+Xft.antialias:		true
+Xft.rgba:			rgb
+Xft.hinting:		true
+Xft.hintingstyle:	hintslight
+Xfg.lcdfilter:		lcddefault
+
+URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10:dpi=96
+
+! Extensions
 URxvt.perl-ext-common:	default,clipboard,url-select
 ! URxvt clipboard
 URxvt.keysym.M-c:			perl:clipboard:copy
@@ -20,44 +36,58 @@ URxvt.urlLauncher:		/usr/bin/xxxterm -n
 !URxvt.underlineURLs:		true
 URxvt.urlButton:			1
 
-! Font
-Xft.dpi:				96
-Xft.antialias:		true
-Xft.rgba:			rgb
-Xft.hinting:		true
-Xft.hintingstyle:	hintslight
-Xfg.lcdfilter:		lcddefault
-
-URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10
-
+! ---------------
 ! terminal colors
-! tangoesque
-*background:	#111111
-*foreground:	#babad6
-! Black
-*color0:			#000000
-*color8:			#555753
-! Red
-*color1:			#ff6565
-*color9:			#ff8d8d
-! Green
-*color2:			#93d44f
-*color10:		#c8e7a8
-! Yellow
-*color3:			#eab93d
-*color11:		#ffc123
-! Blue
-*color4:			#204a87
-*color12:		#3465a4
-! Magenta
-*color5:			#ce5c00
-*color13:		#f57900
-! Cyan
-*color6:			#89b6e2
-*color14:		#46a4ff
-! White
-*color7:			#cccccc
-*color15:		#ffffff
+! ---------------
+!! tangoesque
+!*background:	#111111
+!*foreground:	#babad6
+!! Black
+!*color0:			#000000
+!*color8:			#555753
+!! Red
+!*color1:			#ff6565
+!*color9:			#ff8d8d
+!! Green
+!*color2:			#93d44f
+!*color10:		#c8e7a8
+!! Yellow
+!*color3:			#eab93d
+!*color11:		#ffc123
+!! Blue
+!*color4:			#204a87
+!*color12:		#3465a4
+!! Magenta
+!*color5:			#ce5c00
+!*color13:		#f57900
+!! Cyan
+!*color6:			#89b6e2
+!*color14:		#46a4ff
+!! White
+!*color7:			#cccccc
+!*color15:		#ffffff
+
+! easy on the eyes BoneKracker@gentoo
+*color0: #000010       // black -> black russian
+*color1: #9e1828       // red -> tamarillo
+*color2: #aece92       // green -> pine glade
+*color3: #968a38       // yello -> sycamore
+*color4: #414171       // blue -> east bay
+*color5: #963c59       // magenta -> vin rouge
+*color6: #418179       // cyan -> viridian
+*color7: #bebebe       // white -> silver
+*color8: #666666       // bright black -> dove gray
+*color9: #cf6171       // bright red -> chestnut rose
+*color10: #c5f779      // gright green -> sulu
+*color11: #fff796      // bright yellow -> witch haze
+*color12: #4186be      // bright blue -> steel blue
+*color13: #cf9ebe      // bright magenta -> viola
+*color14: #71bebe      // bright cyan -> neptune
+*color15: #ffffff      // bright white -> white
+*background: 0
+*foreground: 15
+!*cursorColor: magenta
+*cursorColor: 7
 
 ! Gnuplot pretends it's a terminal, so reset it to sane (printable) colors
 gnuplot*background: white

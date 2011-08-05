@@ -1,5 +1,4 @@
 
 # Ignore vim swap files
-.vim/tmp/*.swp
-.vim/tmp/*.swo
+.vim/tmp/*.*
 

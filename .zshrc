@@ -24,7 +24,7 @@ setopt prompt_subst
 autoload -U colors && colors
 
 PROMPT='
-%{$fg_bold[blue]%}%n@%{$fg_bold[grey]%}%m%{$fg_bold[blue]%}:%{$fg_bold[green]%}%~%{$reset_color%}
+%{$fg_bold[blue]%}%n@%{$fg_bold[black]%}%m%{$fg_bold[blue]%}:%{$fg_bold[green]%}%~%{$reset_color%}
 %{$fg_bold[blue]%}$%{$reset_color%} '
 
 # Completion

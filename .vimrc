@@ -4,9 +4,8 @@
 " --------------
 set nocompatible		" Use Vim settings, rather than Vi settings
 " Call Pathogen to load plugins
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 " -----------
 " Colorscheme
@@ -18,8 +17,8 @@ set number
 " ------
 " Indent
 " ------
-filetype plugin on
 syntax on
+filetype plugin on
 set autoindent
 set smartindent
 

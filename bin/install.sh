@@ -1,16 +1,22 @@
 #!/bin/sh
 
-# Update git submodules
+# TODO: Update git submodules
 
 # Check if files need to be replaced
 for f in *
 do
-	if [ -e ~/.$f ]
+	if [ `grep $f .ignore` ]
 	then
-		echo "Replacing \"~/.$f\""
-	fi
+		echo "Ignoring $f"
+	else
+		if [ -e ~/.$f ]
+		then
+			echo "Replacing \"~/.$f\""
+			diff ~/.$f $f
+			rm ~/.$f
+		fi
 
-	rm -i ~/.$f
-	ln -s `pwd`/$f ~/.$f
+		ln -s `pwd`/$f ~/.$f
+	fi
 done
 

@@ -1,6 +1,8 @@
 #!/bin/sh
 
 # TODO: Update git submodules
+git submodule sync
+git submodule update
 
 # Check if files need to be replaced
 for f in *

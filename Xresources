@@ -88,7 +88,7 @@ URxvt.urlButton:			1
 !*cursorColor: magenta
 *cursorColor: 7
 
-! Gnuplot pretends it's a terminal, so reset it to sane (printable) colors
+! Gnuplot pretends its a terminal, so reset it to sane (printable) colors
 gnuplot*background: white
 gnuplot*textColor: black
 gnuplot*borderColor: black

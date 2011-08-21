@@ -15,7 +15,7 @@ alias ls='ls -F --si --color'
 # Colors
 . ~/.colors
 
-HOST=`hostname -s`
+HOST=`uname -n`
 PS1='
 $bold_blue${USER}@$bold_black${HOST}$bold_blue:$bold_green${PWD/$HOME/\~}
 $bold_blue\$$reset_color '

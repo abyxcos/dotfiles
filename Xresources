@@ -25,7 +25,7 @@ URxvt.font:	xft:DejaVu Sans Mono:pixelsize=10
 URxvt.perl-ext-common:	default,clipboard,url-select
 ! URxvt clipboard
 URxvt.keysym.M-c:			perl:clipboard:copy
-URxvt.keysym.M-V:			perl:clipboard:paste
+URxvt.keysym.M-v:			perl:clipboard:paste
 URxvt.keysym.M-C-v:		perl:clipboard:paste_escaped
 URxvt.copyCommand:		xsel -ib
 URxvt.pasteCommand:		xsel -ob

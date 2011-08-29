@@ -27,5 +27,3 @@ PS1='
 $bold_blue${USER}@$bold_black${HOST%%.*}$bold_blue:$bold_green${PWD}
 $bold_blue\$$reset_color '
 
-PS2='$bold_blue>$reset_color '
-

@@ -1,3 +1,11 @@
+# Environment variables
+export PATH=$HOME/bin:$PATH
+
+export EDITOR=vim
+
+export NETHACKOPTIONS="DECgraphics,time,hilite_pet,noautopickup,showexp,color"
+export WINEARCH=win32
+
 # History
 HISTFILE=~/.histfile
 HISTSIZE=1000

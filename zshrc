@@ -19,10 +19,11 @@ setopt autocd
 bindkey -e
 #stty erase 
 bindkey "[3~" delete-char
-alias screen='screen -U'
+set -o vi
 
 # Useful Aliases
 alias ls='ls -F --si --color'
+alias screen='screen -U'
 
 # Colors
 export CLICOLOR="true"

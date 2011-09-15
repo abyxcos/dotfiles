@@ -31,7 +31,7 @@ URxvt.copyCommand:		xsel -ib
 URxvt.pasteCommand:		xsel -ob
 ! URxvt clickable links
 URxvt.keysym.M-u:			perl:url-select:select_next
-URxvt.urlLauncher:		/usr/bin/opera
+URxvt.urlLauncher:		/usr/bin/firefox-aurora
 !URxvt.underlineURLs:		true
 URxvt.urlButton:			1
 

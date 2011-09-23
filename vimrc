@@ -22,7 +22,7 @@ filetype plugin on
 set autoindent
 set smartindent
 
-set foldmethod=syntax
+" set foldmethod=syntax
 
 set backspace=indent,eol,start
 set tabstop=3
@@ -94,12 +94,12 @@ vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 " Change common punctuation to produce pairs
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap ` ``<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap { {}<Esc>i
+"inoremap " ""<Esc>i
+"inoremap ' ''<Esc>i
+"inoremap ` ``<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap [ []<Esc>i
+"inoremap { {}<Esc>i
 
 " -------
 " Plugins

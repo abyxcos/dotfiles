@@ -22,7 +22,8 @@ bindkey "[3~" delete-char
 set -o vi
 
 # Useful Aliases
-alias ls='ls -F --si --color'
+#alias ls='ls -F --si --color'
+alias ls='ls -F -G'
 alias screen='screen -U'
 
 # Colors

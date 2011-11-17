@@ -7,11 +7,12 @@ HISTSIZE=1000
 
 # Editing mode
 set -o vi
-set -o vi-tabcomplete
+#set -o vi-tabcomplete
 
 # Aliases
 alias screen='screen -U'
-alias ls='ls -F --si --color'
+#alias ls='ls -F --si --color'
+alias ls='ls -F -G'
 
 # Colors
 . ~/.colors

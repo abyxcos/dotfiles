@@ -62,7 +62,7 @@ set wrap					" Wrap long lines to fit terminal width
 set swapfile
 set updatecount=200	" Write swapfile after X characters
 set directory=$HOME/.vim/tmp
-set autochdir			" cd into the file's directory
+" set autochdir			" cd into the file's directory
 set autoread			" Reread file on changes (non-stupid)
 set ttyfast				" Tell vim we're using a fast terminal for redraws
 set history=1000
